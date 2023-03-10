@@ -1,0 +1,234 @@
+/* CSS for button with gradient background */
+.btn-5 {
+    background-image: linear-gradient(to right, #859af2 0%, #4538ff  82%);    
+    border: none;
+}
+
+/* CSS for navigation links */
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CSS for heading and paragraphs in modal dialog */
+.modal-dialog h3{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+.modal-dialog p{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+/* CSS for labels in modal dialog */
+.modal-dialog label{
+    color: black;
+    font-weight: bold;
+}
+
+/* CSS for email input field in modal dialog */
+#modal-email{
+    height: 60px;
+    border-left: 0;
+    padding: 0;
+}
+#modal-email::placeholder{
+    font-size: 14px;
+    font-weight: bold;
+}
+#modal-email:focus{
+    outline: none !important;
+}
+
+/* CSS for button with transparent background */
+.btn1 {
+    border-right: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+/* CSS for heading and paragraphs in section two */
+.two h1{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+.sec2_p1{
+    font-size: 19px;
+    font-weight: 500;
+    color: #777;
+}
+
+/* CSS for button in section two */
+.sec2_b1 {
+    color: #777;
+    background-color: #eee;
+    border: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+}
+.sec2_b1:hover {
+    background-color: #ccc;
+}
+
+/* CSS for input field in section two */
+.sec2_inp1{
+    margin-top: 5px;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+}
+.sec2_inp1::placeholder {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 7px;
+    color: #ddd;
+}
+.sec2_inp1:focus {
+    outline: none;
+}
+
+/* CSS for headings in section three */
+.three h1{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+}
+.three h3 {
+    margin-top: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+/* CSS for links in section four */
+.four a{
+    text-decoration: none;
+    color: #5e5e5e;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #f6f5f5;
+    margin: 0 0 10px 0;
+    padding: 20px 0 20px 20px;
+    border-radius: 20px;
+}
+.four a.active{
+    background-color: ;
+}
+.four a:hover {
+    background-color: #bbb;
+}
+
+/* CSS for headings and paragraphs in section four */
+
+/* Set the font family, size, and weight of all h3 elements inside the element with class 'four' */
+.four h3{
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* Set the font size of all p elements inside the element with class 'four' */
+.four p{
+    font-size: 20px;
+}
+
+/* Set the font family, size, and weight of all h2 elements inside the element with class 'five' */
+.five h2{
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Set the font family, size, and color of all p elements inside the element with class 'five' */
+.five p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    color: #aaa;
+}
+
+/* Set the height, width, overflow, and margin of all elements with class 'col-4' inside the element with class 'six' */
+.six .col-4 {
+    height: 800px;
+    width: 15%; 
+    overflow: auto;
+    margin-left: 10%;
+}
+
+/* Set the padding, margin, and list style of the unordered list with class 'nav-list' inside the element with class 'six' */
+.six .nav-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Set the text decoration, color, and font size of all anchor elements inside list items of the unordered list with class 'nav-list' inside the element with class 'six' */
+.six .nav-list li a{
+    text-decoration: none;
+    color: #5e5e5e;
+    font-size: 14px;
+}
+
+/* Set the width of the scrollbar inside elements with class 'scroll' inside the element with tag 'nav' */
+nav.scroll ::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Set the background color of the scrollbar track inside elements with class 'scroll' inside the element with tag 'nav' */
+nav.scroll ::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+}
+
+/* Set the background color and border radius of the scrollbar thumb inside elements with class 'scroll' inside the element with tag 'nav' */
+nav.scroll ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+/* Set the width of all elements with class 'col-8' inside the element with class 'six' */
+.six .col-8 {
+    width: 75%;
+}
+
+/* Set the background and size of all elements with class 'gradient-box' */
+.gradient-box {
+    background: linear-gradient(to right, #56CCF2 0%, #2F80ED  51%, #56CCF2  100%);
+    width: 75%;
+    height: 320px;
+    border-radius: 20px;
+}
+
+/* Set the background color of the element with class 'sec9_cont1' */
+.sec9_cont1 {
+    background-color: #effcf5;
+}
+
+/* Set the background, display, and border radius of the h4 element inside the element with class 'sec9_cont1' */
+.sec9_cont1 h4 {
+    background: linear-gradient(to bottom, #85f293 5%, #1a9c45  89%);
+    display: inline-block;
+    border-radius: 20px 0 20px 0;
+}
+
+/* Set the background color of the element with class 'sec9_cont2' */
+  .sec9_cont2 {
+    background-color: #f4e3dd;
+  }
+
+/* Set the background, display, and border radius of the h4 element inside the element with class 'sec9_cont1' */
+.sec9_cont2 h4 {
+    background: linear-gradient(to bottom, #ffd092 5%, #f57309  89%);
+    display: inline-block;
+    border-radius: 20px 0 20px 0;
+  }
+
+.two .three .four .five .six {
+    font-family: 'Heebo', sans-serif;
+}
